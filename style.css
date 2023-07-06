@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Roboto;
@@ -6,40 +6,42 @@
 
 
 /* this is nav bar css style. */
-nav{
-    background: linear-gradient(45deg,black,rgb(87, 84, 84));
+nav {
+    background: linear-gradient(45deg, black, rgb(87, 84, 84));
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
 }
-.logo img{
+
+.logo img {
     width: 150px;
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.menu ul li{
+.menu ul li {
     color: white;
     list-style: none;
     margin-left: 20px;
     font-size: 20px;
     font-weight: 300;
 }
+
 /* banner image css style */
 
-.banner{
+.banner {
     width: 100%;
     height: 100vh;
-    background-image: url(./image/background.png), linear-gradient(45deg,rgb(31, 30, 30),rgb(43, 39, 39));
+    background-image: url(./image/background.png), linear-gradient(45deg, rgb(31, 30, 30), rgb(43, 39, 39));
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -47,29 +49,203 @@ nav{
     justify-content: space-around;
 }
 
-.banner-text{
+.banner-text {
     text-align: left;
     color: white;
 }
 
-.banner-text h1{
+.banner-text h1 {
     font-size: 56px;
 }
 
-.banner-text p{
+.banner-text p {
     font-size: 17px;
     margin: 20px 0;
 }
 
-.primary-button{
+.primary-button {
     background-color: red;
     color: white;
     border: none;
     padding: 23px 18px;
     font-size: 19px;
     border-radius: 5px;
+    cursor: url("./icon/mobile-regular-108.png"), auto;
 }
 
-.banner-image img{
+.banner-image img {
     width: 500px;
+}
+
+/* about css style */
+
+.about {
+    padding: 20px 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-image img {
+    width: 400px;
+}
+
+.about-text h3 {
+
+    font-size: 33px;
+
+    line-height: 1.5em;
+}
+
+.about-text p {
+
+    font-size: 19px;
+
+    line-height: 1.5em;
+
+    margin: 20px 0;
+
+    font-weight: 300;
+}
+
+/* service secion */
+
+.service {
+    padding: 20px 0;
+    width: 100%;
+    height: 50vh;
+    background: url(./image/background.png), linear-gradient(198deg, rgb(43 43 43), black);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.service h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 13%;
+    border-radius: 11px;
+    margin-bottom: 35px;
+    box-shadow: 5px 5px 80px #c3b9b9;
+}
+
+.service-box {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+}
+
+.box {
+    text-align: center;
+}
+
+.box .icon img {
+    width: 81px;
+}
+
+.box h3 {
+
+    margin: 20px 0;
+
+    font-size: 29px;
+}
+
+.box p {
+
+    text-align: center;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+.secondary-btn {
+
+    margin: 25px 0;
+
+    background: #292828;
+
+    font-size: 15px;
+
+    padding: 12px 17px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    color: white;
+
+    font-weight: 300;
+}
+
+/* footer section */
+
+footer {
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(0deg, rgb(56, 56, 56), black);
+}
+
+.footer-container {
+    width: 75%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.section1 img {
+    width: 200px;
+}
+
+.section1 p {
+    line-height: 1.5;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 300
+}
+
+.footer-container h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.footer-container ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 200;
+
 }
